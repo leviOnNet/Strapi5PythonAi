@@ -18,7 +18,7 @@ app = Flask(__name__)
 CORS(app)  # Allow CORS for all routes
 # Load environment variables
 cohere_api_key = os.getenv('COHERE_API_KEY')
-API_KEY = '67434e2309b53788868178aff01bec9a28a074336bf567c33ef3b0eaf30bf53fa57623c6c0cc288ac7cc8d79a89e834caddce879559e28fb55fa0da02357814c69fcaadfae4db91d48595ea6cc548fb3da27aed85693bda1b3c0ce667b1747cabd1c4ad8f716b64789527b945672cdec8b5c455908541cd2583769a48279af61'
+API_KEY = '<your API key>'
 # Check if environment variables are loaded properly
 if not cohere_api_key:
     raise ValueError("COHERE_API_KEY environment variable not set.")
